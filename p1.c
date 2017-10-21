@@ -2,7 +2,7 @@
 // Multiples of 3 and 5
 #include <stdio.h>
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     int n;
     if (argc > 1)
@@ -19,6 +19,8 @@ int main(int argc, char **argv)
             sum += i;
         }
     }
+
     printf("%i\n", sum);
-    return;
+
+    return 0;
 }
